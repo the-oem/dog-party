@@ -1,0 +1,136 @@
+footer,
+section,
+main,
+a.button-link {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  height: 50px;
+  padding: 0 20px;
+  background-color: #92E0E5;
+}
+
+main {
+  padding-bottom: 20px;
+}
+
+section.main-content {
+  min-height: 400px;
+  padding: 15px 0;
+  text-align: center;
+  background-image: url("images/park.jpg");
+  background-size: cover;
+}
+
+footer {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #3F8DA7;
+}
+
+footer h4 {
+  margin: 0px auto 20px;
+}
+
+a,
+footer h4 {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a.button-link {
+  display: block;
+  width: 140px;
+  margin: auto;
+  padding: 5px 10px;
+  color: #3F8DA7;
+  border: 3px solid #3F8DA7;
+  background-color: #FFF;
+}
+
+a.github-link {
+  display: block;
+  margin: 20px auto 0;
+  text-decoration: underline;
+}
+
+nav a.nav-link {
+  display: inline-block;
+  padding-left: 20px;
+  line-height: 50px;
+}
+
+.site-nav {
+  float: right;
+}
+
+.site-icon {
+  width: 40px;
+  height: 40px;
+  padding: 5px 0;
+}
+
+.round-image {
+  border: 2px solid #3F8DA7;
+  border-radius: 100%;
+  background-position: center;
+  background-size: contain;
+}
+
+.header-image {
+  width: 250px;
+  height: 250px;
+  margin: 0px auto 20px;
+  background-image: url("images/dog1-sq.jpg");
+}
+
+.how-image {
+  background-image: url("images/dog2-sq.jpg");
+}
+
+.what-image {
+  background-image: url("images/dog3-sq.jpg");
+}
+
+.facts-image {
+  background-image: url("images/dog4-sq.jpg");
+}
+
+.section-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+}
+
+section h2 {
+  margin: 0 auto 20px;
+}
+
+.section-content {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+
+.dog-content {
+  padding: 0 30px;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
